@@ -1,0 +1,35 @@
+{
+  "name": "finbert/multivender",
+  "description": "N/A",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0"
+  },
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "finbert",
+      "email": "support@magento-dev.com",
+      "homepage": "https://magento-dev.com/",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magestore\\Multivender\\": ""
+    }
+  },
+  "repositories": {
+    "multivender": {
+      "type": "vcs",
+      "url": "https://github.com/FinbertMagestore/Multivendor"
+    }
+  }
+}
